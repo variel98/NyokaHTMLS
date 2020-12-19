@@ -1,0 +1,367 @@
+/*=============Extra small device media=======*/
+@media(max-width:575.98px){
+.navbar-light .navbar-toggler {
+border-color: transparent;
+}
+.button:focus {
+outline: 0;
+
+}
+.navbar-toggler i{
+ color: #ffc815;
+    font-size: 22px;
+ }
+.navbar-light .navbar-nav .nav-link {
+	color: #030303;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link::before {
+	background:none;
+}
+.navbar-light .navbar-nav .nav-link::after {
+	background:none;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffc815!important;
+}
+.navbar-nav {
+	
+	background: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+#banner{
+        height: inherit;
+    }
+ .banner-text {
+	margin-top: 42%;
+}
+.banner-text{
+   margin-left: 10px;     
+} 
+.banner-text h4 {
+	font-size: 22px;
+	
+}
+.banner-text span {
+	font-size: 40px;
+}
+.banner-text h1{
+  font-size: 40px;
+}
+#about .header1 {
+	padding-top: 0px;
+	
+}
+.header1 {
+ padding-top: 20px;
+ margin-top: 25px;
+}
+.header1 h3 {
+ font-size: 32px;
+}
+
+/*
+#about {
+padding-top: 0px;
+
+}
+*/
+.about-text{
+ margin-top: -50px;
+}
+#portfolio {
+	padding-top: 40px;
+}
+#service {
+	padding-bottom: 40px;
+}
+.card-body {
+margin-bottom: 30px;
+}
+.card-body h5 {
+margin-top: 12px;
+}
+
+.social_share_area .share_btn {
+right: -20px;
+}
+.img-name {
+top: 95px;
+}
+.about-img img {
+height: inherit;
+}
+
+.button-group .button {
+	
+margin-right: 3px; 
+}
+.header1 h4 {
+font-size: 28px;
+	
+}
+.header1 h4 p {
+font-size: 28px;
+
+}
+.single_contact_info {
+margin-top: -2px;
+	
+}
+#blog {
+	padding-bottom: 60px;
+}
+#testimonials {
+	padding-top: 70px;
+}
+.form-details{
+padding-bottom: 40px;
+}
+.form-group {
+	margin-bottom: 25px;
+}
+.work-item {
+margin-bottom: 25px;
+}
+.top-btn {
+right: 10px;
+	
+}
+  
+}
+
+
+@media(min-width:320px) and (max-width:400px){
+    
+.banner-text h1 {
+	font-size: 28px;
+}
+.banner-text span {
+	font-size: 28px;
+}
+.testimonial-item p {
+	padding: 20px 10px;
+}
+#footer {
+	padding-bottom: 25px;
+}
+}
+
+
+/*===================Small device media=================*/
+@media(min-width:576px) and (max-width:767.98px){
+.navbar-light .navbar-toggler {	
+border-color: transparent;
+}
+.button:focus {
+outline: 0;
+
+}
+#banner{
+        height: inherit;
+    }
+.navbar-toggler i{
+ color: #ffc815;
+    font-size: 22px;
+ }
+.navbar-light .navbar-nav .nav-link {
+	color: #030303;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link::before {
+	background:none;
+}
+.navbar-light .navbar-nav .nav-link::after {
+	background:none;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffc815!important;
+}
+.navbar-nav {
+	
+	background: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.banner-text {
+	margin-top: 38%;
+}
+.banner-text{
+   margin-left: 10px;     
+} 
+.banner-text h4 {
+	font-size: 26px;
+}
+.banner-text span {
+	font-size: 40px;
+}
+.banner-text h1{
+  font-size: 40px;
+}
+#about .header1 {
+	padding-top: 0px;
+}
+/*
+#about {
+padding-top: 0px;
+
+}
+*/
+#portfolio {
+	padding-top: 40px;
+}
+#service {
+	padding-bottom: 40px;
+}
+.button-group .button {
+	margin-right: 5px;
+}
+.work-item {
+margin-bottom: 25px;
+}
+.card-body {
+margin-bottom: 30px;
+}
+.card-body h5 {
+margin-top: 12px;
+}
+.social_share_area .share_btn {
+right: -20px;
+}
+.img-name {
+top: 123px;
+}
+.social_share_area .share_btn {
+	top: -20px;
+}
+.card {
+	margin-bottom: 25px;
+}
+#blog {
+	padding-bottom: 60px;
+}
+#testimonials {
+	padding-top: 70px;
+
+}
+.header1 h4 {
+font-size: 28px;
+	
+}
+.header1 h4 p {
+font-size: 28px;
+
+}
+.single_contact_info {
+margin-top: -3px;
+	
+}
+.form-details{
+padding-bottom: 58px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.top-btn {
+right: 10px;
+	
+}
+    
+}
+
+/*===================Medium device media=================*/
+@media(min-width:768px) and (max-width:991.98px){
+  .navbar-light .navbar-toggler {	
+border-color: transparent;
+}
+.button:focus {
+outline: 0;
+
+}
+.navbar-toggler i{
+ color: #ffc815;
+    font-size: 22px;
+ }
+.navbar-light .navbar-nav .nav-link {
+	color: #030303;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link::before {
+	background:none;
+}
+.navbar-light .navbar-nav .nav-link::after {
+	background:none;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffc815!important;
+}
+.navbar-nav {
+	
+	background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.banner-text {
+	margin-top: 38%;
+}
+.banner-text{
+   margin-left: 10px;     
+} 
+.banner-text h4 {
+	font-size: 24px;	
+}
+.banner-text span {
+	font-size: 40px;
+}
+.banner-text h1{
+  font-size: 40px;
+}
+#about .header1 {
+	padding-top: 0px;
+}
+/*
+#about {
+padding-top: 0px;
+
+}
+*/
+.work-item {
+margin-bottom: 25px;
+}
+.card {
+margin-bottom: 30px;
+}
+.card-body h5 {
+margin-top: 12px;
+}
+.img-name {
+top: 94px;
+}
+#blog {
+	padding-bottom: 60px;
+}
+#testimonials {
+	padding-top: 70px;
+
+}
+.single_contact_info {
+margin-top: -3px;
+	
+}
+.form-details{
+padding-bottom: 58px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.button-group .button {
+	margin-right: 10px;
+}
